@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", Arial;
+}
+
+body {
+  background-color: #f6f8fa;
+}
+
+.header-box {
+  background-color: #1e4fa1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.header-box-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.header-box-1 img {
+  height: 5vh;
+}
+
+.login-cadastro {
+  font-size: 14px;
+  color: #fff;
+}
+
+.login-cadastro a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-cadastro a img {
+  color: white;
+  height: 16px;
+  filter: invert(1);
+}
+
+/* Menu inferior */
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+/* Pesquisa */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  background: #f0f2f5;
+  font-size: 15px;
+}
+
+.container button {
+  background: #1e4fa1;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.container button img {
+  width: 20px;
+  filter: invert(1);
+}
+
+/* Seções */
+section {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+section h2 {
+  color: #1e4fa1;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.2s;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #00994d;
+  font-weight: 600;
+  font-size: 15px;
+}
